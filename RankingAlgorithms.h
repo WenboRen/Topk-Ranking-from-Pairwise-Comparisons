@@ -36,7 +36,7 @@ void distributeItem(const int i, const double piv, const double epsilon, const d
 	if (w / t > 0.5 + 0.5 * epsilon + su) {
 		Sup.push_back(i);
 	}
-	else if (w / t < 0.5 + 0.5 * epsilon - sd) {
+	else if (w / t < 0.5 - 0.5 * epsilon - sd) {
 		Sdown.push_back(i);
 	}
 	else {
