@@ -126,9 +126,9 @@ int main()
 		else if (instance == "Random") {
 			for (int i = 0; i < n_max; ++i) {
 				for (int j = i + 1; j < n_max; ++j) {
-					double gap = doubleRand(0.5, 1.5) * Delta;
-					P[true_order[i]][true_order[j]] = 0.5 + Delta;
-					P[true_order[j]][true_order[i]] = 0.5 - Delta;
+					double gap = doubleRand(0.5, 2.0) * Delta;
+					P[true_order[i]][true_order[j]] = 0.5 + gap;
+					P[true_order[j]][true_order[i]] = 0.5 - gap;
 				}
 			}
 		}
