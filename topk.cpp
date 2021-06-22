@@ -33,8 +33,8 @@ int main()
 	//string instance = "BTL";
 	//string instance = "Random";
 	string instance = "PrefLib";
-	//string path = "F:/research/ranking/preflib/pwg/ED-00001-00000001.pwg";
-	string path = "F:/research/ranking/preflib/pwg/ED-00015-00000047.pwg";
+	//string path = "./ED-00001-00000001.pwg";
+	string path = "./ED-00015-00000047.pwg";
 
 	string check_mode = "PAC";
 	//string check_mode = "exact";
